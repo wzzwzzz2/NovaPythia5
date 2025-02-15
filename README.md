@@ -1,3 +1,9 @@
+# NovaPythia5
+This project is a Capstone project of students from FDU, based on [Pythia] (https://github.com/CMU-SAFARI/Pythia), licensed under MIT, check origin README at the end of file.
+
+Orijin Project
+***
+
 <p align="center">
   <a href="https://github.com/CMU-SAFARI/Pythia">
     <img src="logo.png" alt="Logo" width="424.8" height="120">
