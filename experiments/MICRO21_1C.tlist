@@ -1,13 +1,5 @@
-NAME=605.mcf_s-472B
-TRACE=$(PYTHIA_HOME)/traces/605.mcf_s-472B.champsimtrace.xz
-KNOBS=
-
-NAME=607.cactuBSSN_s-2421B
-TRACE=$(PYTHIA_HOME)/traces/607.cactuBSSN_s-2421B.champsimtrace.xz
-KNOBS=
-
-NAME=619.lbm_s-2677B
-TRACE=$(PYTHIA_HOME)/traces/619.lbm_s-2677B.champsimtrace.xz
+NAME=619.lbm_s-2676B
+TRACE=$(PYTHIA_HOME)/traces/619.lbm_s-2676B.champsimtrace.xz
 KNOBS=
 
 NAME=620.omnetpp_s-141B
