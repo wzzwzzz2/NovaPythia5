@@ -3,7 +3,7 @@
 #
 #
 # Traces:
-#    619.lbm_s-2677B
+#    619.lbm_s-2676B
 #    620.omnetpp_s-141B
 #    620.omnetpp_s-874B
 #    621.wrf_s-6673B
@@ -29,13 +29,13 @@
 #
 #
 #
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --config=/home/wzz/Pythia/config/nopref.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_nopref.out 2>&1
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=spp_dev2 --config=/home/wzz/Pythia/config/spp_dev2.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_spp.out 2>&1
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=bingo --config=/home/wzz/Pythia/config/bingo.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_bingo.out 2>&1
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=mlop --config=/home/wzz/Pythia/config/mlop.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_mlop.out 2>&1
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=dspatch --config=/home/wzz/Pythia/config/dspatch.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_dspatch.out 2>&1
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=ppf_dev --config=/home/wzz/Pythia/config/spp_ppf_dev.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_ppf.out 2>&1
-/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=scooby --config=/home/wzz/Pythia/config/pythia.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2677B.champsimtrace.xz > 619.lbm_s-2677B_pythia.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --config=/home/wzz/Pythia/config/nopref.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_nopref.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=spp_dev2 --config=/home/wzz/Pythia/config/spp_dev2.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_spp.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=bingo --config=/home/wzz/Pythia/config/bingo.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_bingo.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=mlop --config=/home/wzz/Pythia/config/mlop.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_mlop.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=dspatch --config=/home/wzz/Pythia/config/dspatch.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_dspatch.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=ppf_dev --config=/home/wzz/Pythia/config/spp_ppf_dev.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_ppf.out 2>&1
+/home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=scooby --config=/home/wzz/Pythia/config/pythia.ini  -traces /home/wzz/Pythia/traces/619.lbm_s-2676B.champsimtrace.xz > 619.lbm_s-2676B_pythia.out 2>&1
 /home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --config=/home/wzz/Pythia/config/nopref.ini  -traces /home/wzz/Pythia/traces/620.omnetpp_s-141B.champsimtrace.xz > 620.omnetpp_s-141B_nopref.out 2>&1
 /home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=spp_dev2 --config=/home/wzz/Pythia/config/spp_dev2.ini  -traces /home/wzz/Pythia/traces/620.omnetpp_s-141B.champsimtrace.xz > 620.omnetpp_s-141B_spp.out 2>&1
 /home/wzz/Pythia/bin/perceptron-multi-multi-no-ship-1core --warmup_instructions=40000000 --simulation_instructions=100000000 --l2c_prefetcher_types=bingo --config=/home/wzz/Pythia/config/bingo.ini  -traces /home/wzz/Pythia/traces/620.omnetpp_s-141B.champsimtrace.xz > 620.omnetpp_s-141B_bingo.out 2>&1
