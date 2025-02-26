@@ -1,3 +1,7 @@
-NAME=649.fotonik3d_s-1176B
-TRACE=$(PYTHIA_HOME)/traces/649.fotonik3d_s-1176B.champsimtrace.xz
-KNOBS=
+NAME=nutch_phase0_core0
+TRACE=$(PYTHIA_HOME)/traces/nutch_phase0_core0.trace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=40000000 --simulation_instructions=100000000
+
+NAME=streaming_phase1_core0
+TRACE=$(PYTHIA_HOME)/traces/streaming_phase1_core0.trace.xz
+KNOBS=--knob_cloudsuite=true --warmup_instructions=40000000 --simulation_instructions=100000000
